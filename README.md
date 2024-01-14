@@ -1,7 +1,7 @@
 # ShadowSocks
 ## ShadowSocks + V2Ray на базе Ubuntu Server
 
-### 1. Для начала обновляем список пакетов
+### 1. Обновляем список пакетов
 ```bash
 sudo apt update && apt upgrade -y
 ```
@@ -24,7 +24,7 @@ sudo wget https://github.com/neon0ff/ShadowSocks/blob/main/v2ray-plugin
 sudo nano /etc/shadowsocks-libev/config.json
 ```
 
-### 5. Заполняем конфиг таким образом. Не забудьте изменить порт сервара и пароль на свой
+### 5. Заполняем конфиг таким образом. Не забудьте изменить порт сервера и пароль на свой
 ```bash
 {
     "server":["0.0.0.0"],
@@ -42,14 +42,14 @@ sudo nano /etc/shadowsocks-libev/config.json
     "plugin_opts":"server"
 }
 ```
-### 6. Далее перехапускаем службы и добовляем в автозагрузку
+### 6. Перезапускаем службы и добавляем в автозагрузку
 ```bash
 sudo service shadowsocks-libev restart
 ```
 ```bash
 sudo systemctl enable shadowsocks-libev
 ```
-### После чего проверяем статус службы
+### 7. Проверяем статус службы
 ```bash
 service shadowsocks-libev status
 ```
