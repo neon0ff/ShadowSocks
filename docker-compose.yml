@@ -3,13 +3,13 @@ services:
   shadowsocks:
     image: shadowsocks/shadowsocks-libev
     ports:
-      - "15123:15123/tcp"
-      - "15123:15123/udp"
+      - "15151:15151/tcp"
+      - "15151:15151/udp"
     environment:
       - SERVER_ADDR=0.0.0.0
-      - SERVER_PORT=15123
+      - SERVER_PORT=15151
       - LOCAL_PORT=1080
-      - PASSWORD=5ouMnqPyzseL
+      - PASSWORD=your_password
       - TIMEOUT=300
       - METHOD=xchacha20-ietf-poly1305
       - DNS_ADDRS=8.8.8.8,8.8.4.4
