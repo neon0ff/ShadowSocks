@@ -53,3 +53,35 @@ sudo systemctl enable shadowsocks-libev
 ```bash
 service shadowsocks-libev status
 ```
+
+## ShadowSocks без V2Ray c помощью Docker-Compose
+### 1. Изначально нам нужен сам Docker и Docker-Compose. Как его установить можно почитать [тут](https://totaku.ru/ustanovka-docker-i-docker-compose-na-ubuntu-22-04/)
+
+### 2. Перейдем в домашнюю деректорию командой ```cd``` и создадим там папку
+```bash
+mkdir ShadoSocks
+```
+
+### 3. Перейдем в неё и скачаем файл docker-compose.yml
+```bash
+cd ShadowSocks
+```
+
+```bash
+sudo wget https://github.com/neon0ff/ShadowSocks/blob/main/docker-compose.yml
+```
+
+### 4. Отредактируем в нем пароль (your_password) на свой
+```bash
+sudo nano docker-compose.yml
+```
+
+###. 5. Запускаем сборку
+```bash
+sudo docker compose up -d
+```
+
+### 6. Проверяем контейнер
+```bash
+sudo docker ps
+```
