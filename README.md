@@ -59,7 +59,7 @@ service shadowsocks-libev status
 
 ### 2. Перейдем в домашнюю деректорию командой ```cd``` и создадим там папку
 ```bash
-mkdir ShadoSocks
+mkdir ShadowSocks
 ```
 
 ### 3. Перейдем в неё и скачаем файл docker-compose.yml
