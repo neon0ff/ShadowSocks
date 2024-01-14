@@ -91,4 +91,3 @@ sudo docker ps
 * [V2Ray плагин для Разных ОС](https://github.com/shadowsocks/v2ray-plugin/releases)
 * [V2Ray плагин для Android](https://f-droid.org/packages/com.github.shadowsocks.plugin.v2ray/)
 
-## ShadowSocks + XRay (в разработке)
