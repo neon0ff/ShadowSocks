@@ -87,7 +87,7 @@ sudo docker ps
 ```
 
 ## Полезные ссылки
-* [Клиент ShadowSocks для Windows](https://github.com/shadowsocks/v2ray-plugin/releases)
+* [Клиент ShadowSocks для Windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
 * [V2Ray плагин для Разных ОС](https://github.com/shadowsocks/v2ray-plugin/releases)
 * [V2Ray плагин для Android](https://f-droid.org/packages/com.github.shadowsocks.plugin.v2ray/)
 
